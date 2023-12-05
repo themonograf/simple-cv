@@ -1,0 +1,63 @@
+{
+  "fullName": "John Cena",
+  "firstName": "John",
+  "lastName": "Cena",
+  "photoUrl": "https://media.istockphoto.com/id/183297121/id/foto/tv-lama-dalam-gaya-retro.jpg?s=1024x1024&w=is&k=20&c=kbSifNiFZIpgfjzBf87ZXSbcPR__iyqd5dFeSBDsb9o=",
+  "currentPosition": "Developer",
+  "introduction": "Ini sedikit biodata",
+  "mobilePhone": "080989999",
+  "email": "johncena@gmail.com",
+  "streetAddress": "Jl. John Cena No. 99",
+  "maritalStatus": "Belum Menikah",
+  "nationality": "Indonesia",
+  "religion": "Krislam",
+  "gender": "Cewok",
+  "dob": "1990-01-23",
+  "education": [
+    {
+      "id": 1,
+      "sequence": 1,
+      "from": 2015,
+      "to": 2022,
+      "schoolName": "Universitas John Cena",
+      "location": "Jakarta",
+      "faculty": "Teknik Informatika",
+      "isCurrent": false
+    }
+  ],
+  "skills": ["Microsoft Office", "Canva", "Social Media"],
+  "hobbies": ["Ngetik", "DIY"],
+  "workExperiences": [
+    {
+      "id": 1,
+      "sequence": 1,
+      "companyName": "PT. John Cena",
+      "position": "Developer",
+      "isCurrent": false,
+      "from": "2019-07-31",
+      "to": "2019-10-31",
+      "descriptionList": [
+        {
+          "id": 1,
+          "description": "Membuat kodingan yang simpel dan berbobot"
+        }
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "id": 1,
+      "title": "Ketua Sekte",
+      "name": "Sekte Seribu Pedang",
+      "isCurrent": false,
+      "from": 2017,
+      "to": 2018,
+      "descriptionList": [
+        {
+          "id": 1,
+          "description": "Mengatur dan mengorganisir sekte"
+        }
+      ]
+    }
+  ]
+}

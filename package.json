@@ -1,0 +1,53 @@
+{
+  "name": "monograf-simple-cv",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "clean": "rm -rf node_modules build dist package-lock.json yarn.lock pnpm-lock.yaml"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.36.1",
+    "axios": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.4",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.17.0",
+    "react-to-print": "^2.14.15",
+    "react-toastify": "^9.1.3",
+    "swiper": "^10.3.1",
+    "zustand": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.200",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "@vitejs/plugin-react-swc": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "sass": "^1.69.5",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
